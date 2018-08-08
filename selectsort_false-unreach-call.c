@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 void select_sort(int a[], int n){
-    int t, temp;
+    int t;
+    int temp;
 
     for(int i = 0; i < n; i++){
         for(int j = i+1; j < n; j++){
