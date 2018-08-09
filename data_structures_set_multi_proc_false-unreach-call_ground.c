@@ -1,7 +1,7 @@
 extern void __VERIFIER_error() __attribute__ ((__noreturn__));
 void __VERIFIER_assert(int cond) { if(!(cond)) { ERROR: __VERIFIER_error(); } }
 
-#define SIZE 10
+#define SIZE 15
 
 // implements a set and checks that the insert and remove function maintain the structure
 
