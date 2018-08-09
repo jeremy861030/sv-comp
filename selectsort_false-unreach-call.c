@@ -33,7 +33,7 @@ int main(){
     for(int i = 0; i < N; i++){
         a[i] = __VERIFIER_nondet_int();
     }
-    //select_sort(a, N);
+    select_sort(a, N);
     //int temp;
     //if(a[0] > a[1]){
     //    temp = a[0];
